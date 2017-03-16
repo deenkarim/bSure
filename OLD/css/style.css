@@ -1,0 +1,557 @@
+/***** General Styles ******/
+
+.clear {
+	clear:both;
+}
+
+body {
+	background:#f2f2f2;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	color:#404040;	
+}
+
+ul {
+	list-style-type:disc;
+	margin:0px 0px 20px 40px;
+	font-size:11px;
+	font-weight:normal;
+	color:#404040;
+	line-height:18px;
+}
+
+ol {
+	list-style-type:decimal;
+	margin:0px 0px 20px 40px;
+	font-size:11px;
+	font-weight:normal;
+	color:#404040;
+	line-height:18px;
+}
+
+blockquote {
+	margin-left:20px;
+	border-left:3px solid #999;
+	font-size:11px;
+	font-weight:normal;
+	color:#404040;
+	margin-bottom:25px;
+	line-height:18px;
+	padding-left:10px;
+	font-style:italic;
+}
+
+p {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	color:#404040;
+	margin-bottom:25px;
+	line-height:22px;
+}
+
+h1 {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:24px;
+	font-weight:normal;
+	color:#404040;
+	margin-bottom:20px;
+	line-height:24px;
+}
+
+h2 {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:18px;
+	font-weight:normal;
+	color:#404040;
+	margin-bottom:15px;
+}
+
+h2 span {
+	color:#d97000;
+}
+
+h3 {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	color:#d97000;
+	margin-bottom:10px;
+}
+
+h4 {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:11px;
+	color:#404040;
+	line-height:18px;
+}
+
+h5 {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:10px;
+	font-weight:normal;
+	color:#404040;
+	margin-bottom:10px;
+}
+
+h6 {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:8px;
+	font-weight:normal;
+	color:#404040;
+	margin-bottom:10px;
+}
+
+a:link, a:active, a:visited {
+	font-size:11px;
+	font-weight:normal;
+	color:#d97000;
+	margin-bottom:25px;
+	line-height:18px;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+#wrap {
+	width:1000px;
+	margin:30px auto;
+}
+
+/***** Header Styles ******/
+
+#header {
+	background:#202020;
+	height:50px;
+	margin:0px auto;
+	width:945px;
+	padding:20px 25px 20px 30px;
+}
+
+#logo {
+	width:200px;
+	float:left;
+	margin:5px 0px;
+}
+
+/***** Navigation Styles *****/
+
+#nav{
+float:right;
+list-style-type: none;
+margin:0;
+}
+
+#nav li{
+float:left;
+}
+
+#nav li a:link, #nav li a:active, #nav li a:visited {
+display:block;
+width:100px;
+padding:6px 10px;
+text-decoration: none;
+line-height: 20px;
+outline: none;
+text-align:right;
+font-size: 16px;
+color:#CCC;
+border-right:1px solid #CCC;
+}
+
+#nav li a:hover, #nav li.selected a {
+color:#FFF;
+border-right:1px solid #FFF;
+}
+
+#nav li a span{
+display:block;
+font-size: 12px;
+}
+
+/***** Featured Area Styles ******/
+
+#featured {
+	width:1000px;
+	margin:0px auto;
+	position:relative;
+	height:350px;
+}
+
+/***** Main Content Styles ******/
+
+#main {
+	width:958px;
+	margin:0 auto;
+	padding:30px 20px;
+	background:#eaeaea;	
+	overflow:hidden;
+	border:1px solid #cdcdcd;
+}
+
+#main img {
+	padding:5px;
+	border:1px solid #cdcdcd;
+}
+
+.column_small img, .column_medium img, .column_large img {
+	padding:5px;
+	border:1px solid #cdcdcd;
+}
+
+.column_small {
+	width:290px;
+	border-right:1px solid #d4d7dd;
+	padding-right:15px;
+	float:left;
+	margin-right:15px;
+}
+
+.column_medium {
+	width:610px;
+	border-right:1px solid #d4d7dd;
+	padding-right:15px;
+	float:left;
+	margin-right:15px;
+	padding-bottom:0;
+}
+
+.column_large {
+	width:960px;
+	float:left;
+}
+
+.column_last {
+	border-right:0;
+	margin-right:0;
+	padding-right:0;
+}
+
+.recentpost {
+	border-bottom:1px solid #cdcdcd;
+	padding:0px 0px 10px 0px;
+	margin:0px 0px 10px 0px;
+}
+
+.recentpost h4 a {
+	color:#404040;
+	font-weight:bold;
+}
+
+.recentpost h4 a:hover {
+	color:#d97000;
+	text-decoration:none;
+}
+
+.recentpost p {
+	padding:0;	
+	margin:0;
+}
+
+.recentpost_last {
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+#blog_entries .excerpt {
+	margin-bottom:25px;
+	padding-bottom:25px;	
+	border-bottom:1px solid #cdcdcd;
+}
+
+#blog_entries_last {
+	margin-bottom:0;
+}
+
+.excerpt h1 a:link, .excerpt h1 a:active, .excerpt h1 a:visited {
+	font-size:24px;
+	font-weight:normal;
+	color:#404040;
+	margin-bottom:20px;
+	line-height:24px;
+}
+
+.excerpt h1 a:hover {
+	color:#d97000;
+	text-decoration:none;
+}
+
+.excerpt .snippet {
+	font-size:11px;
+	font-weight:normal;
+	color:#404040;
+	margin-bottom:25px;
+	line-height:22px;
+}
+
+.excerpt .snippet img {
+	float:left;
+	margin:0px 15px 0px 0px;
+}
+
+.excerpt .snippet .meta, .excerpt .snippet .meta a {
+	font-size:10px;
+	margin-bottom:10px;	
+}
+
+.excerpt {
+	margin-bottom:25px;
+}
+
+.pagination {
+	float:right;
+}
+
+.pagination li {
+	display:inline;
+	list-style:none;
+}
+
+.pagination li a:link, .pagination li a:active, .pagination li a:visited {
+	background:#404040;
+	border:1px solid #cdcdcd;
+	padding:4px;
+	color:#eaeaea;
+}
+
+.pagination li a:hover, .pagination li.current a:link, .pagination li.current a:active, .pagination li.current a:visited {
+	background:#d97000;
+	color:#eaeaea;
+	text-decoration:none;
+}
+
+#comments {
+	list-style:none;
+	margin-left:0;
+}
+
+#comments li {
+	width:590px;
+}
+
+#comments li .comment_left {
+	float:left;
+	width:100px;
+	text-align:center;
+}
+
+#comments li .comment_left img {
+	margin-bottom:10px;
+}
+
+#comments li .comment_right {
+	float:left;
+	width:490px;
+	margin-bottom:20px;
+}
+
+#comments li .comment_right .name {
+	float:left;
+	width:290px;
+}
+
+#comments li .comment_right .date {
+	float:right;
+	width:200px;
+	text-align:right;
+}
+
+.about_author, .about_us {
+	width:300px;
+}
+
+.about_author img, .about_us img {
+	float:left;
+	padding:5px;
+	border:1px solid #cdcdcd;
+	margin:0px 10px 10px 0px;
+}
+
+#leave_comment, #contact_form {
+	margin:30px 0px;
+}
+
+/***** Portfolio Styles ****/
+
+.portfolio {
+	margin:0;
+	list-style:none;
+}
+
+.portfolio li {
+	width:296px;
+	float:left;
+	margin-right:9px;
+}
+
+.portfolio_fullwidth li {
+	margin-right:35px;
+}
+
+.portfolio li img {
+	margin:0px 0px 15px 0px;
+}
+
+.portfolio li h3 a:link, .portfolio li h3 a:active, .portfolio li h3 a:visited {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	color:#404040;
+	margin-bottom:15px;
+}
+
+.portfolio li h3 a:hover {
+	color:#d97000;
+	margin-bottom:15px;
+	text-decoration:none;
+}
+
+/****** Sub Navigation Styles *****/
+
+ul.subnav {
+	list-style:none;
+	margin:25px 0px 25px 0px ;
+}
+
+ul.subnav li {
+	border-top:1px solid #d4d7dd;
+	height:30px;
+	width:315px;
+}
+
+ul.subnav li.last {
+	border-bottom:1px solid #d4d7dd;
+}
+
+ul.subnav li a:link, ul.subnav li a:active, ul.subnav li a:visited {
+	text-decoration:none;
+	color:#414141;
+	width:300px;
+	display:block;
+	padding:5px 5px 5px 10px;
+	height:20px;
+}
+
+ul.subnav li a:hover, ul.subnav li.current a {
+	background:#f2f2f2;
+	color:#d97000;
+	border-left:3px solid #d97000;
+	width:297px;
+	height:20px;
+}
+
+
+
+/**** Form Styles ****/
+
+input#name, input#email, input#url {
+	background:#f2f2f2;
+	border:1px solid #cdcdcd;
+	padding:4px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:11px;
+	width:200px;
+}
+
+input#submit {
+	background:#404040;
+	border:1px solid #cdcdcd;
+	padding:6px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:11px;
+	color:#eaeaea;
+}
+
+input#submit:hover {
+	background:#d97000;
+	border:1px solid #cdcdcd;
+	padding:6px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:11px;
+	color:#eaeaea;
+	cursor:pointer;
+}
+
+label {
+	margin:10px;
+}
+
+textarea#comment, textarea#message {
+	background:#f2f2f2;
+	border:1px solid #cdcdcd;
+	padding:4px;
+	width:500px;
+	height:150px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:11px;
+}
+
+/***** Adblock Styles *****/
+
+ul.adblock {
+	margin:0px 0px 20px 0px;
+	width:300px;
+}
+
+ul.adblock li {
+	display:inline;
+}
+
+ul.adblock li img {
+	margin:5px;
+	padding:5px;
+	border:1px solid #cdcdcd;
+}
+
+/****** Blog Styles *****/
+
+/***** Footer Styles ******/
+
+#footer {
+	width:960px;
+	margin:0 auto;
+	height:10px;
+	padding:15px 20px;
+	color:#eaeaea;
+	background:#202020;
+	overflow:hidden;	
+}
+
+#copyright {
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:10px;
+	font-weight:normal;
+	width:400px;
+	float:left;
+}
+
+#footer_navigation {
+	list-style:none;
+	width:550px;
+	float:right;
+	margin:-5px;
+	padding:0px;
+	text-align:right;
+}
+
+#footer_navigation li {
+	display:inline;
+	padding:0px;	
+}
+
+#footer_navigation li a:link, #footer_navigation li a:active, #footer_navigation li a:visited {
+	text-decoration:none;
+	margin:0px 5px;	
+	font-size:10px;	
+	padding:0px;
+	color:#eaeaea;	
+}
+
+#footer_navigation li a:hover {
+	color:#d97000;
+	text-decoration:underline;
+}
